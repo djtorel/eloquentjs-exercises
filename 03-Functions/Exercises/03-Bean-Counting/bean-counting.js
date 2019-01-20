@@ -14,7 +14,9 @@ takes a second argument that indicates the character that is to be counted
 use of this new function.
  */
 
-const countBs = (str) => {};
+const countBs = (str) => {
+  return countChar(str, "B");
+};
 
 const countChar = (str, char) => {
   let counter = 0;

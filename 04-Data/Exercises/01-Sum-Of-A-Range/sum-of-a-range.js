@@ -29,6 +29,6 @@ const range = (start, end, step = (start < end) ? 1 : -1) => {
 
 const sum = (intArr) => {
   return intArr.reduce((acc, num) => acc += num, 0);
-}
+};
 
 console.log(sum(range(1, 10)));
